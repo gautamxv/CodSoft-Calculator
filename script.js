@@ -11,3 +11,7 @@ function calculate() {
         display.value = 'Error';
     }
 }
+
+function clearDisplay() {
+    document.getElementById('display').value = '';
+}
